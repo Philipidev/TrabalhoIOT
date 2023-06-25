@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-06-25T14:09:38.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="E0Hma3iW8yZM-etoBQGv" version="21.5.0" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1593" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="yfsyP4oUOuOF5OVePeon-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="yfsyP4oUOuOF5OVePeon-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Aplicativo Flutter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="260" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yfsyP4oUOuOF5OVePeon-6" target="yfsyP4oUOuOF5OVePeon-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-6" value="Publica os dados do controle remoto, com base no input do usuário" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="120" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yfsyP4oUOuOF5OVePeon-10" target="yfsyP4oUOuOF5OVePeon-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-10" value="Código em python" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="300" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yfsyP4oUOuOF5OVePeon-11" target="yfsyP4oUOuOF5OVePeon-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yfsyP4oUOuOF5OVePeon-11" target="yfsyP4oUOuOF5OVePeon-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-11" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="325" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-13" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="325" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-15" value="Recebe do tópico os dados e salva no banco de dados MySQL" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="445" width="180" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yfsyP4oUOuOF5OVePeon-17" target="yfsyP4oUOuOF5OVePeon-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-17" value="Esp32" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="300" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-18" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="325" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yfsyP4oUOuOF5OVePeon-20" target="yfsyP4oUOuOF5OVePeon-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yfsyP4oUOuOF5OVePeon-20" target="yfsyP4oUOuOF5OVePeon-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yfsyP4oUOuOF5OVePeon-20" target="yfsyP4oUOuOF5OVePeon-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-20" value="Recebe do tópico assinado os dados e com base neles maniula os equipamentos" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="445" width="180" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-24" value="Acende/Manipula&lt;br&gt;cor LED" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="343.5" y="657.5" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-26" value="Liga/Desliga&lt;br&gt;Switch" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="657.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yfsyP4oUOuOF5OVePeon-28" value="Regula potencia&lt;br&gt;do aparelho" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="657.5" width="140" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
